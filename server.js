@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
-	res.json({"msg" : "Karibu Dunya !"})
+	res.json({"msg" : "Karibu Dunya rafiki yangu !!"})
 });
 
 var port = process.env.port || 3000;
