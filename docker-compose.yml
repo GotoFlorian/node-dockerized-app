@@ -1,0 +1,6 @@
+webservice:
+  build: .
+  ports:
+    - "3000:80"
+  environment:
+    port: "80"
