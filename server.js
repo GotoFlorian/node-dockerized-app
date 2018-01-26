@@ -3,8 +3,9 @@ var app = express();
 
 app.get('/', function(req, res){
 	res.json({
-			"msg" : "Karibu Dunya rafiki yangu !!",
-			"status": "OK"
+			"msg" : "Karibu Dunya.",
+			"author" : "Florian GOTO",
+			"status" : "OK"
 	})
 });
 
